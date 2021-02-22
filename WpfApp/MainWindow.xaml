@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="413.6" Width="400.933">
+    <Grid Margin="0,0,3.6,-2.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Label Content="N2&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,10,0,0" Height="29" Width="27" />
+        <Button x:Name="MatrixAddOne" Content="Ввод матрицы ..." HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Margin="10,69,0,0" Height="19" Click="MatrixAddOne_Click" />
+        <Button x:Name="MatrixAddTwo" Content="Ввод матрицы ..." HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Margin="186,69,0,0" Height="19" Click="MatrixAddTwo_Click" />
+        <Label Content="N1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="28" Height="26" />
+        <TextBox x:Name="N1TextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="28" Margin="10,41,0,0" TextChanged="N1TextBox_TextChanged" />
+        <TextBox x:Name="N2TextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="27" Margin="186,41,0,0" TextChanged="N2TextBox_TextChanged" />
+        <Button x:Name="MultiNumber" Content="Умножить на число" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Margin="247,106,0,0" Height="26" Click="MultiNumber_Click" />
+        <Label Content="Умножить на" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,106,0,0" Width="82" Height="26" />
+        <TextBox x:Name="MultiNumberBox" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" Margin="103,106,0,0" TextChanged="MultiNumberBox_TextChanged" />
+        <Label Content="M1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="65,10,0,0" Width="33" Height="26" />
+        <Label Content="M2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="253,10,0,0" Width="28" Height="26" RenderTransformOrigin="-2.329,0.669" />
+        <TextBox x:Name="M1TextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="33" Margin="65,41,0,0" RenderTransformOrigin="0.204,0.455" TextChanged="M1TextBox_TextChanged" />
+        <TextBox x:Name="M2TextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="28" Margin="253,41,0,0" TextChanged="M2TextBox_TextChanged" />
+        <Label Name="ResultLabel" Content="Пусто" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,186,0,-0.4" Height="188" Width="177" />
+        <Button x:Name="MatrixMulti" Content="Умножить матрицу на матрицу" HorizontalAlignment="Left" VerticalAlignment="Top" Width="311" Margin="12,145,0,0" Height="19" Click="MatrixMulti_Click" />
+        <Label Name="Matrix2label" Content="Пусто" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="202,186,0,-0.4" Height="188" Width="195"/>
+        <Label Content="Матрица для умножения" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="202,160,0,0" Width="174" d:IsLocked="True"/>
+        <Label Content="Результат" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,164,0,0" Width="132"/>
+        <Button Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="301,24,0,0" Height="54" Click="Button_Click"/>
+    </Grid>
+</Window>
