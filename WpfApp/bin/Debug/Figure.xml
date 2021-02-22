@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Figure</name>
+    </assembly>
+    <members>
+        <member name="T:Figure.GeometricShapes">
+            <summary>
+            класс геометрической фигуры
+            </summary>
+        </member>
+        <member name="F:Figure.GeometricShapes.typeShape">
+            <summary>
+             поле тип фигуры
+            </summary>
+        </member>
+        <member name="F:Figure.GeometricShapes.color">
+            <summary>
+             поле цвет фигуры
+            </summary>
+        </member>
+        <member name="M:Figure.GeometricShapes.#ctor(System.String,System.String)">
+            <summary>
+             конструктор объекта класс геометрической фигуры
+            </summary>
+            <param name="typeShape"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:Figure.GeometricShapes.GetInformationAboutShape">
+            <summary>
+            метод получения информации об фигуре
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.GeometricShapes.GetArea">
+            <summary>
+            метод получения площади фигуры
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.GeometricShapes.GetHashCode">
+            <summary>
+             метод получения хэш-кода
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.GeometricShapes.Equals(System.Object)">
+            <summary>
+             метод сравнения фигур
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.GeometricShapes.ToString">
+            <summary>
+            Converts to string.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Figure.Polygon">
+            <summary>
+            класс многоугольника
+            </summary>
+            <seealso cref="T:Figure.GeometricShapes" />
+            <seealso cref="T:System.IComparable" />
+        </member>
+        <member name="F:Figure.Polygon.typeShape">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Figure.Polygon._sides">
+            <summary>
+            The sides
+            </summary>
+        </member>
+        <member name="M:Figure.Polygon.#ctor(System.String,System.Double[],System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Figure.Polygon"/> class.
+            </summary>
+            <param name="typeShape">The type shape.</param>
+            <param name="sides">The sides.</param>
+            <param name="color">The color.</param>
+        </member>
+        <member name="M:Figure.Polygon.GetArea">
+            <summary>
+            метод получения площади фигуры
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Figure.Polygon.GetInformationAboutShape">
+            <summary>
+            метод получения информации об фигуре
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.Polygon.ToString">
+            <summary>
+            Converts to string.
+            </summary>
+            <returns>
+            A <see cref="T:System.String" /> that represents this instance.
+            </returns>
+        </member>
+        <member name="M:Figure.Polygon.CompareTo(System.Object)">
+            <summary>
+            Compares to.
+            </summary>
+            <param name="other">The other.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception">Невозможно сравнить два объекта</exception>
+        </member>
+        <member name="T:Figure.Rectangle">
+            <summary>
+            класс прямоугольника
+            </summary>
+            <seealso cref="T:Figure.Polygon" />
+        </member>
+        <member name="F:Figure.Rectangle.typeShape">
+            <summary>
+            The type shape
+            </summary>
+        </member>
+        <member name="M:Figure.Rectangle.#ctor(System.String,System.Double,System.Double,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Figure.Rectangle"/> class.
+            </summary>
+            <param name="typeShape">The type shape.</param>
+            <param name="width">The width.</param>
+            <param name="height">The height.</param>
+            <param name="color">The color.</param>
+            <exception cref="T:System.Exception">Недопустимые стороны прямоугольник.</exception>
+        </member>
+        <member name="P:Figure.Rectangle.Width">
+            <summary>
+            Gets the width.
+            </summary>
+            <value>
+            The width.
+            </value>
+        </member>
+        <member name="P:Figure.Rectangle.Height">
+            <summary>
+            Gets the height.
+            </summary>
+            <value>
+            The height.
+            </value>
+        </member>
+        <member name="M:Figure.Rectangle.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Figure.Rectangle.GetArea">
+            <summary>
+            метод получения площади фигуры
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.Rectangle.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="M:Figure.Rectangle.GetInformationAboutShape">
+            <summary>
+            метод получения информации об фигуре
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.Rectangle.ToString">
+            <summary>
+            Converts to string.
+            </summary>
+            <returns>
+            A <see cref="T:System.String" /> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:Figure.Сircle">
+            <summary>
+            
+            </summary>
+            <seealso cref="T:Figure.GeometricShapes" />
+        </member>
+        <member name="F:Figure.Сircle.typeShape">
+            <summary>
+            The type shape
+            </summary>
+        </member>
+        <member name="M:Figure.Сircle.#ctor(System.String,System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Figure.Сircle"/> class.
+            </summary>
+            <param name="typeShape">The type shape.</param>
+            <param name="x">The x.</param>
+            <param name="y">The y.</param>
+            <param name="radius">The radius.</param>
+            <param name="color">The color.</param>
+        </member>
+        <member name="P:Figure.Сircle.IsFirstQuarter">
+            <summary>
+            Gets a value indicating whether this instance is first quarter.
+            </summary>
+            <value>
+              <c>true</c> if this instance is first quarter; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:Figure.Сircle.GetArea">
+            <summary>
+            метод получения площади фигуры
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.Сircle.GetLenthCircles">
+            <summary>
+            Gets the lenth circles.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.Сircle.GetInformationAboutShape">
+            <summary>
+            метод получения информации об фигуре
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Figure.Сircle.ToString">
+            <summary>
+            Converts to string.
+            </summary>
+            <returns>
+            A <see cref="T:System.String" /> that represents this instance.
+            </returns>
+        </member>
+        <member name="M:Figure.Сircle.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Figure.Сircle.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+    </members>
+</doc>

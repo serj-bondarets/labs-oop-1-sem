@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figure", "Figure\Figure.csproj", "{7C90EF91-9928-4B7E-A62E-BA221E11A7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{4C418CCE-E884-4D18-9E9B-F039A7A3FC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFigure", "UnitTestFigure\UnitTestFigure.csproj", "{F43356EC-4C1F-4C4F-8AFC-FD1A212E1D56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C90EF91-9928-4B7E-A62E-BA221E11A7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C90EF91-9928-4B7E-A62E-BA221E11A7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C90EF91-9928-4B7E-A62E-BA221E11A7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C90EF91-9928-4B7E-A62E-BA221E11A7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C418CCE-E884-4D18-9E9B-F039A7A3FC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C418CCE-E884-4D18-9E9B-F039A7A3FC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C418CCE-E884-4D18-9E9B-F039A7A3FC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C418CCE-E884-4D18-9E9B-F039A7A3FC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43356EC-4C1F-4C4F-8AFC-FD1A212E1D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43356EC-4C1F-4C4F-8AFC-FD1A212E1D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43356EC-4C1F-4C4F-8AFC-FD1A212E1D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43356EC-4C1F-4C4F-8AFC-FD1A212E1D56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D383E261-B2A6-49B7-B38E-9C3D3327796B}
+	EndGlobalSection
+EndGlobal

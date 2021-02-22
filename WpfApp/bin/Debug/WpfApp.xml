@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WpfApp</name>
+    </assembly>
+    <members>
+        <member name="T:WpfApp.AddandEdit">
+            <summary>
+            Логика взаимодействия для AddandEdit.xaml
+            </summary>
+            <summary>
+            AddandEdit
+            </summary>
+        </member>
+        <member name="M:WpfApp.AddandEdit.#ctor(WpfApp.MainWindow)">
+            <summary>
+            Initializes a new instance of the <see cref="T:WpfApp.AddandEdit"/> class.
+            </summary>
+            <param name="main">The main.</param>
+        </member>
+        <member name="M:WpfApp.AddandEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WpfApp.App">
+            <summary>
+            Логика взаимодействия для App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:WpfApp.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:WpfApp.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:WpfApp.MainWindow">
+            <summary>
+            Логика взаимодействия для MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:WpfApp.MainWindow.shapes">
+            <summary>
+            The shapes
+            </summary>
+        </member>
+        <member name="M:WpfApp.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:WpfApp.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:WpfApp.MainWindow.InitShapes(System.String)">
+            <summary>
+            Initializes the shapes.
+            </summary>
+            <param name="path">The path.</param>
+        </member>
+        <member name="M:WpfApp.MainWindow.InitializationFigure(System.String)">
+            <summary>
+            Initializations the figure.
+            </summary>
+            <param name="str">The string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:WpfApp.MainWindow.InitializeList">
+            <summary>
+            Initializes the list.
+            </summary>
+        </member>
+        <member name="M:WpfApp.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WpfApp.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:WpfApp.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:WpfApp.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>

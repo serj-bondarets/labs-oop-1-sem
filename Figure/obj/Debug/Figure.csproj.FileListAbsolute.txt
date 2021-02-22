@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\den\Figure\bin\Debug\Figure.dll
+C:\Users\ASUS\source\repos\den\Figure\bin\Debug\Figure.pdb
+C:\Users\ASUS\source\repos\den\Figure\obj\Debug\Figure.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\den\Figure\obj\Debug\Figure.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\den\Figure\obj\Debug\Figure.dll
+C:\Users\ASUS\source\repos\den\Figure\obj\Debug\Figure.pdb
+C:\Users\ASUS\source\repos\den\Figure\bin\Debug\Figure.xml
+D:\repository\ООП\OOP_labs\OOP_labs\Lab8\Figure\bin\Debug\Figure.xml
+D:\repository\ООП\OOP_labs\OOP_labs\Lab8\Figure\bin\Debug\Figure.dll
+D:\repository\ООП\OOP_labs\OOP_labs\Lab8\Figure\bin\Debug\Figure.pdb
+D:\repository\ООП\OOP_labs\OOP_labs\Lab8\Figure\obj\Debug\Figure.csprojAssemblyReference.cache
+D:\repository\ООП\OOP_labs\OOP_labs\Lab8\Figure\obj\Debug\Figure.csproj.CoreCompileInputs.cache
+D:\repository\ООП\OOP_labs\OOP_labs\Lab8\Figure\obj\Debug\Figure.dll
+D:\repository\ООП\OOP_labs\OOP_labs\Lab8\Figure\obj\Debug\Figure.pdb
