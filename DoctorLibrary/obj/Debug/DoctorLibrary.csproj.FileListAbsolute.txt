@@ -1,0 +1,14 @@
+D:\OOP\OOP1para\Laba_6\DoctorLibrary\bin\Debug\DoctorLibrary.dll
+D:\OOP\OOP1para\Laba_6\DoctorLibrary\bin\Debug\DoctorLibrary.pdb
+D:\OOP\OOP1para\Laba_6\DoctorLibrary\obj\Debug\DoctorLibrary.csprojAssemblyReference.cache
+D:\OOP\OOP1para\Laba_6\DoctorLibrary\obj\Debug\DoctorLibrary.csproj.CoreCompileInputs.cache
+D:\OOP\OOP1para\Laba_6\DoctorLibrary\obj\Debug\DoctorLibrary.dll
+D:\OOP\OOP1para\Laba_6\DoctorLibrary\obj\Debug\DoctorLibrary.pdb
+D:\OOP\OOP1para\Laba_6\DoctorLibrary\bin\Debug\DoctorLibrary.xml
+D:\repository\1sem\ООП\OOP_labs\Laba_6\DoctorLibrary\bin\Debug\DoctorLibrary.xml
+D:\repository\1sem\ООП\OOP_labs\Laba_6\DoctorLibrary\bin\Debug\DoctorLibrary.dll
+D:\repository\1sem\ООП\OOP_labs\Laba_6\DoctorLibrary\bin\Debug\DoctorLibrary.pdb
+D:\repository\1sem\ООП\OOP_labs\Laba_6\DoctorLibrary\obj\Debug\DoctorLibrary.csprojAssemblyReference.cache
+D:\repository\1sem\ООП\OOP_labs\Laba_6\DoctorLibrary\obj\Debug\DoctorLibrary.csproj.CoreCompileInputs.cache
+D:\repository\1sem\ООП\OOP_labs\Laba_6\DoctorLibrary\obj\Debug\DoctorLibrary.dll
+D:\repository\1sem\ООП\OOP_labs\Laba_6\DoctorLibrary\obj\Debug\DoctorLibrary.pdb

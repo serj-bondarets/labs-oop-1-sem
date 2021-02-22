@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DoctorLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DoctorLibrary.Doctors">
+            <summary>
+            Перечисление
+            </summary>
+        </member>
+        <member name="F:DoctorLibrary.Doctors.Dentist">
+            <summary>
+            Стоматолог
+            </summary>
+        </member>
+        <member name="F:DoctorLibrary.Doctors.Dermatologist">
+            <summary>
+            Дерматолог
+            </summary>
+        </member>
+        <member name="F:DoctorLibrary.Doctors.Surgeon">
+            <summary>
+            Хирург
+            </summary>
+        </member>
+        <member name="F:DoctorLibrary.Doctors.Neurologist">
+            <summary>
+            Невролог
+            </summary>
+        </member>
+        <member name="F:DoctorLibrary.Doctors.Psychiatrist">
+            <summary>
+            Физиотерапевт
+            </summary>
+        </member>
+        <member name="F:DoctorLibrary.Doctors.Ophthalmologist">
+            <summary>
+            Офтальмолог 
+            </summary>
+        </member>
+        <member name="T:DoctorLibrary.Polyclinic">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:DoctorLibrary.Polyclinic.RecordToDoctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DoctorLibrary.Polyclinic.RecordToDoctor.#ctor(DoctorLibrary.Doctors,System.Int32,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="doctor"></param>
+            <param name="patients"></param>
+            <param name="date"></param>
+        </member>
+        <member name="P:DoctorLibrary.Polyclinic.RecordToDoctor.Doctors">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DoctorLibrary.Polyclinic.RecordToDoctor.Patients">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DoctorLibrary.Polyclinic.RecordToDoctor.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DoctorLibrary.Polyclinic.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DoctorLibrary.Polyclinic.recordList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DoctorLibrary.Polyclinic.CreateRecord">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DoctorLibrary.Polyclinic.PatientsPerDay(System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="setDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DoctorLibrary.Polyclinic.RegistratedPatients(System.DateTime)">
+            <summary>
+            Находит врачей, к ктором есть запись на указанный день 
+            </summary>
+            <param name="months"></param>
+            <param name="days"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DoctorLibrary.Polyclinic.AverageNumberOfPatients(System.Int32)">
+            <summary>
+            Находит среденее количество пациетов в день ю
+            </summary>
+            <param name="doctor"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SixthLab</name>
+    </assembly>
+    <members>
+        <member name="M:SixthLab.AverageNumberOfPatients.button1_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие</param>
+            <param name="e">передает объект, относящийся к оюрабатываемому событию</param>
+        </member>
+        <member name="M:SixthLab.AverageNumberOfPatients.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие</param>
+            <param name="e">передает объект, относящийся к оюрабатываемому событию</param>
+        </member>
+        <member name="F:SixthLab.AverageNumberOfPatients.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SixthLab.AverageNumberOfPatients.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SixthLab.AverageNumberOfPatients.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SixthLab.RegisteredPatients">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SixthLab.RegisteredPatients.polyclinic">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SixthLab.RegisteredPatients.#ctor(DoctorLibrary.Polyclinic)">
+            <summary>
+            
+            </summary>
+            <param name="polyclinic"></param>
+        </member>
+        <member name="M:SixthLab.RegisteredPatients.button1_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие</param>
+            <param name="e">передает объект, относящийся к оюрабатываемому событию</param>
+        </member>
+        <member name="M:SixthLab.RegisteredPatients.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие</param>
+            <param name="e">передает объект, относящийся к оюрабатываемому событию</param>
+        </member>
+        <member name="F:SixthLab.RegisteredPatients.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SixthLab.RegisteredPatients.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SixthLab.RegisteredPatients.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SixthLab.ShowInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SixthLab.ShowInfo.#ctor(DoctorLibrary.Polyclinic)">
+            <summary>
+            
+            </summary>
+            <param name="polyclinic"></param>
+        </member>
+        <member name="M:SixthLab.ShowInfo.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие</param>
+            <param name="e">передает объект, относящийся к оюрабатываемому событию</param>
+        </member>
+        <member name="M:SixthLab.ShowInfo.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие</param>
+            <param name="e">передает объект, относящийся к оюрабатываемому событию</param>
+        </member>
+        <member name="F:SixthLab.ShowInfo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SixthLab.ShowInfo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SixthLab.ShowInfo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:SixthLab.Menu.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка вызова первого задания
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SixthLab.Menu.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка вызова алгоритма второго задания
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SixthLab.Menu.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка вызова третьего задания
+            </summary>
+            <param name="sender">Предоставляет ссылку на объект, который вызвал событие </param>
+            <param name="e"> передает объект, относящийся к оюрабатываемому событию </param>
+        </member>
+        <member name="M:SixthLab.Menu.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка выхода
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:SixthLab.Menu.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SixthLab.Menu.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SixthLab.Menu.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
